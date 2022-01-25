@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@300&family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-top{
+    display: flex;
+    background-color: rgb(133, 33, 8);
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    z-index: 9;
+}
+.searchbar{
+    margin-left: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.searchbar p input{
+    margin-left: 10px;  
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+}
+.fab{
+    margin-left: 10px;
+    color: #fff;
+}
+.top-icon{
+    position: absolute;
+    right: 50px;
+}
+.nav-second .nav-sec-head{
+    text-align: left;
+    padding-left: 50px;
+}
+.nav-second{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    width: 100%;
+    padding-top: 50px;
+}
+.cars-text{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    
+    width: 100%;
+    text-align: center;
+}
+.menu{
+
+    font-size: 17px;
+    width: 80%;
+    text-align: right;
+    margin-right: 25px;
+}
+.menu a{
+    margin: 7px;
+    text-decoration: none;
+    color: #000;
+}
+.main-pic img{
+width: 100%;
+height: 700px;
+}
+.main-heading{
+    position: relative;
+}
+.mhead-first {
+    width: 1600px;
+    left: -50px;
+    top: -100px;
+    height: 600px;
+    background-color: rgb(51, 76, 80);
+    transform: rotate(-7deg);
+    position: absolute;
+    z-index: -1;
+}
+.main-heading-first{
+    text-align: center;
+    /* margin-left: 600px; */
+    padding-top: 100px;
+    color: #fff;
+}
+.main-heading-first h1{
+font-size: 30px;
+}
+.pare{
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+.fonts{
+    font-size: 16px;
+}
+.learn-more-btn{
+    padding-top: 40px;
+}
+.learn-more-btn a{
+    text-decoration: none;
+    color: #FFF;
+    background-color: rgb(133, 33, 8);
+    border: 2px solid rgb(39, 39, 39);
+    padding: 10px;
+    font-size: 18px;
+}
+.hey-there-adeline{
+        padding: 100px 0;
+        width: 100%;
+        height: 720px;
+
+}
+.hey-there-adeline .in-adeline{
+    display: flex;
+    text-align: center;
+
+}
+.hey-there-adeline .in-adeline .img-adeline img{
+    margin-top: 50px;
+    width: 50%;
+    height: 70%;
+    border: 4px solid#FFF;
+    position: relative;
+}
+.hey-there-adeline .in-adeline .img-adeline{
+    position: relative;
+}
+.in-adeline{
+    position: absolute;
+}
+.img-adeline::after{
+    content: "";
+    position: absolute;
+    width: 48%;
+    top: 47px;
+    height: 70%;
+    left: 207px;
+    border: 4px solid rgb(133, 33, 8);
+    transform: rotate(7deg);
+    background: transparent;
+}
+.hey-there-adeline .in-adeline .content-adeline{
+    text-align: center;
+    padding-top: 200px;
+
+    
+}
+.hey-there-adeline .in-adeline .content-adeline h1{
+    font-size: 30px;
+}
+.content-adeline-pargraph {
+    font-size: 15px;
+}
+.show-featured{
+    position: relative;
+    height: 950px;
+}
+.show-featured::before{
+    content: "";
+    width: 1620px;
+    height: 600px;
+    background-color: rgb(253, 227, 227);
+    transform: rotate(-7deg);
+    position: absolute;
+    left: -50px;
+    z-index: -1;
+}
+ .content-featured{
+    text-align: center;
+    color: #000;
+    padding-top: 100px;
+}
+.show-featured .content-featured h2{
+    color: #fff;
+    font-size: 40px;
+}
+.featured-imgs{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+.featured-img{
+margin: 22px;
+position: relative;
+}
+.featured-img img{
+    width: 450px;
+    height: 470px;
+    background-size: cover;
+    border: 5px solid #fff;
+}
+.featured-img::after{
+    content: "";
+    width: 436px;
+    height: 470px;
+    background: transparent;
+    border: 2px solid #000;
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+.image-content{
+    text-align: center;
+    background-color:rgb(253, 227, 227) ;
+    padding: 7px;
+}
+.fotter{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(133, 33, 8);
+    color: #fff;
+    text-align: center;
+}
+.design-img p{
+    padding-top: 12px;
+}
